@@ -53,7 +53,7 @@ if __name__ == '__main__':
             print("link : " + one_data.link)
             print(str(text1))
             BlogData(title=one_data.title, link=one_data.link, published_date=one_data.published_date, source=one_data.source, text=str(text1)).save() #왜 갑자기 안되냐~~
-        time.sleep(300)
+        time.sleep(12000)
 
 
 """
