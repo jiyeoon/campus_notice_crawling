@@ -2,6 +2,7 @@
 
 심심해서 만들어 본 학교 공지 크롤링하는 사이트~!
 
+
 ## Crawling File
 
 |name | 내용 |
@@ -15,10 +16,12 @@
 $pip install -r requirements.txt
 ```
 
+
 ## Run Server
 ```text
 $python manage.py runserver
 ```
+
 
 ## Sample Image
 
