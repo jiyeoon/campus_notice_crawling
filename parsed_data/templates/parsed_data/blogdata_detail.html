@@ -1,0 +1,18 @@
+{% extends 'parsed_data/base.html' %}
+
+
+{% block content %}
+    <div class="page-header">
+        <h1>{{ post.title }}</h1>
+    </div>
+    <dl class="dl-horizontal">
+        <dt>원본 링크</dt>
+        <dd><a href="{{ post.link }}" style="word-break: break-all">{{ post.link }}</a></dd>
+        <dt>출처</dt>
+        <dd>{{ post.source }}</dd>
+        <dt>작성일</dt>
+        <dd>{{ post.published_date }}</dd>
+    </dl>
+    <hr>
+    {{ post.text|safe }}
+{% endblock %}
