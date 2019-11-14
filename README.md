@@ -1,7 +1,6 @@
 # Campus Notice Crawling Site
 
 심심해서 만들어 본 학교 공지 크롤링하는 사이트~!
-3분에 한번씩 업데이트
 
 ## Crawling File
 
@@ -25,3 +24,7 @@ $python manage.py runserver
 
 ![crawling1.png](./images/crawling1.png)
 ![crawling2.png](./images/crawling2.png)
+
+
+### Further Considering Points.. 
+[] 파이썬 애니웨어는 http/https 리퀘스트가 안된다. -> 헤로쿠로 갈아타기?!
